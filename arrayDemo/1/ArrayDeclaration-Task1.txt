@@ -1,0 +1,6 @@
+/* 
+name=arr ==>arr.length-->2
+how to find no. off column in second row
+1 2 3 4
+3 5 4 2
+*/
