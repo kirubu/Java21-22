@@ -1,0 +1,4 @@
+create any userdefined class
+    declare any three vaeiable
+create array for userdefined class in your main class
+get user input for userdefined class varaible & print in output
