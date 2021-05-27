@@ -9,10 +9,10 @@ class StringSCP
         System.out.println(str);
         System.out.println(str1);
 
-        if(str.equals(str1))//if(str == str1)
+        if(str == str1)//if(str.equals(str1))//
             System.out.println("str1 & str Equal");
         else
-            System.out.println("str1 & str Equal");
+            System.out.println("str1 & str not Equal");
 
         if(str2 == str1)
             System.out.println("str1 & str2 Equal");
