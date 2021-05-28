@@ -23,6 +23,37 @@ class StringMethods
         System.out.println(s1.compareTo(s2));
         System.out.println(s1.compareToIgnoreCase(s2));
 
+        s1 = "meet.google.com is sharing your screen";
+        System.out.println(s1.startsWith("meet"));
+        System.out.println(s1.endsWith("meet"));
+
+        System.out.println(s1.indexOf('s'));
+        System.out.println(s1.indexOf('z'));
+        System.out.println(s1.lastIndexOf('s'));
+
+        String tempSub = s1.substring(12);//StringIndexOutOfBoundsException-invalid index, index in decreasing order
+        String tempSub1 = s1.substring(12,16);
+        System.out.println(tempSub);
+        System.out.println(tempSub1);
+
+        System.out.println(s1.replace("o","0"));
+        System.out.println(s1.contains("zoom"));
+        System.out.println(s1.toUpperCase());
+        System.out.println(s1.toLowerCase());
+
+        s1 = "meet.google.com is sharing your screen";
+        String[] splitArr = s1.split(" ");
+        for(String t:splitArr)
+            System.out.println(t);
+        String joinStr = String.join(" Yahoo ",splitArr);
+        System.out.println(joinStr);
+
+        String s3 = "  trim the string   ";
+        System.out.println("Berofe trim()-->"+s3.length());
+        System.out.println("After trim()-->"+s3.trim().length());
+
+
+
     }
 
 }
