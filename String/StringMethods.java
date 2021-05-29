@@ -52,8 +52,6 @@ class StringMethods
         System.out.println("Berofe trim()-->"+s3.length());
         System.out.println("After trim()-->"+s3.trim().length());
 
-
-
     }
 
 }
