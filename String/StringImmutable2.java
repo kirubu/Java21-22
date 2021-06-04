@@ -2,6 +2,10 @@ class StringImmutable2
 {
     public static void main(String[] args)
     {
+
+        Integer i1 = new Integer(45);
+        Integer i2 = new Integer(45);
+        if(i1==i2)
         String s = "Welcome ";
         String s1 = new String("Welcome ");
         
